@@ -52,7 +52,7 @@ tup = (***)
 x = 0
 for tu in tup:
   search = str(tup[x][0])
-  print(search)
+  print(search, x)
   # Find Patron Search
   patron_link = driver.find_element_by_id('top_search')
   # Click Patron Search
